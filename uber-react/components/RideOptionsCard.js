@@ -82,7 +82,7 @@ const RideOptionsCard = () => {
                 style: 'currency',
                 currency: 'USD',
               }).format(
-                (travelTimeInformation?.duration.value *
+                (travelTimeInformation?.duration?.value *
                   SURGE_CHARGE_RATE *
                   multiplier) /
                   100
